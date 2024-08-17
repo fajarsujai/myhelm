@@ -1,7 +1,8 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: {{ include "myhelm.fullname" . }}
+  name: {{ .Values.deployment.name }}
+  # name: {{ include "myhelm.fullname" . }}
   labels:
     {{- include "myhelm.labels" . | nindent 4 }}
 spec:
