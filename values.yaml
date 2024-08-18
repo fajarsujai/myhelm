@@ -80,6 +80,7 @@ livenessProbe:
     path: /
     port: http
 readinessProbe:
+  enabled: false
   httpGet:
     path: /
     port: http
