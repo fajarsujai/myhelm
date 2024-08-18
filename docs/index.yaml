@@ -3,17 +3,27 @@ entries:
   myhelm:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-08-18T22:11:41.242234522+07:00"
+    created: "2024-08-18T22:15:40.7791721+07:00"
+    description: A Helm chart for Kubernetes
+    digest: 1b6a6603d24c5f9ea8950c3e2a0540efe92289d42bdce81629b21cacb0af583c
+    name: myhelm
+    type: application
+    urls:
+    - myhelm-0.5.0.tgz
+    version: 0.5.0
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-08-18T22:15:40.781706516+07:00"
     description: A Helm chart for Kubernetes
     digest: 36896b11d2cea4ab505de9986109a70e563e0692f444c436e2dea3e401a83fc0
     name: myhelm
     type: application
     urls:
-    - myhelm-0.4.0.tgz
+    - docs/myhelm-0.4.0.tgz
     version: 0.4.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-08-18T22:11:41.245045679+07:00"
+    created: "2024-08-18T22:15:40.780739218+07:00"
     description: A Helm chart for Kubernetes
     digest: 27d8793449dcc29cc212194afc732525a9b12800e7810b7c66eb5e728c3d3991
     name: myhelm
@@ -23,7 +33,7 @@ entries:
     version: 0.3.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-08-18T22:11:41.244281134+07:00"
+    created: "2024-08-18T22:15:40.780059146+07:00"
     description: A Helm chart for Kubernetes
     digest: 5886b01ca32a31681b7fcd8422da2c64ecc3211649a3d554c7d737f682c9986a
     name: myhelm
@@ -33,7 +43,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-08-18T22:11:41.243598136+07:00"
+    created: "2024-08-18T22:15:40.779556036+07:00"
     description: A Helm chart for Kubernetes
     digest: 0b243dd780bc0de813178089a75774e3b345b8fa26705594409631c53b022df5
     name: myhelm
@@ -41,4 +51,4 @@ entries:
     urls:
     - docs/myhelm-0.1.0.tgz
     version: 0.1.0
-generated: "2024-08-18T22:11:41.238735279+07:00"
+generated: "2024-08-18T22:15:40.777994807+07:00"
