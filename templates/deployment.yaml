@@ -45,9 +45,9 @@ spec:
             {{- toYaml .Values.livenessProbe | nindent 12 }}
           {{- if not .Values.readinessProbe.enabled }}
           readinessProbe:
-              httpGet:
-                path: "{{ .Values.readinessProbe.httpGet.path }}"
-                port: "{{ .Values.readinessProbe.httpGet.port }}"
+            httpGet:
+              path: "{{ .Values.readinessProbe.httpGet.path }}"
+              port: "{{ .Values.readinessProbe.httpGet.port }}"
             # {{- toYaml .Values.readinessProbe | nindent 12 }}
           {{- end }}
           resources:
