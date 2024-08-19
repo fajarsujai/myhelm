@@ -43,7 +43,7 @@ spec:
               protocol: TCP
           livenessProbe:
             {{- toYaml .Values.livenessProbe | nindent 12 }}
-          {{- if not .Values.readinessProbe.enabled }}
+          # {{- if not .Values.readinessProbe.enabled }}
           # readinessProbe:
           #   httpGet:
           #     path: "{{ .Values.readinessProbe.httpGet.path }}"
